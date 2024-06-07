@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import InfiniteScrollView1 from './features/InfiniteScrollView1';
+import InfiniteScrollView2 from './features/InfiniteScrollView2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      {/* <section>
+        <h1>무한스크롤링 1</h1>
+        <InfiniteScrollView1 />
+      </section> */}
+      <section>
+        <h1>무한스크롤링 2</h1>
+        <InfiniteScrollView2 />
+      </section>
+    </main>
   );
 }
 
